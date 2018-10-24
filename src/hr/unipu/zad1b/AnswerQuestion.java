@@ -11,7 +11,7 @@ package hr.unipu.zad1b;
 public class AnswerQuestion {
 
     /**
-     * <p>This method returns if the printed lines are true. Uses a simple boolean method.<p/>
+     * <p>This method returns if the printed lines are true. Uses a simple boolean method.</p>
      * @param String text
      * @param String correctAnswer
      * @return Boolean true or false

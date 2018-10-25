@@ -1,4 +1,4 @@
-package hr.unipu.zad1b;
+package hr.unipu.zadace.zad1b;
 
 /**
  * <h1>Simple hardcoded quiz</h1>
@@ -14,7 +14,7 @@ package hr.unipu.zad1b;
 public class Main {
         public static void main(String[] args) {
             // declare AswerQuestion.class and hardcode the answer and test case insensitive answer
-            hr.unipu.zad1b.AnswerQuestion question = new AnswerQuestion(
+            hr.unipu.zadace.zad1b.AnswerQuestion question = new AnswerQuestion(
                     "What is Ansible?\n", "TRuE");
 
             // print previous defined question

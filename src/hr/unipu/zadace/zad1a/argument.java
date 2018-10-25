@@ -1,4 +1,4 @@
-package hr.unipu.zad1a;
+package hr.unipu.zadace.zad1a;
 
 public class argument {
 

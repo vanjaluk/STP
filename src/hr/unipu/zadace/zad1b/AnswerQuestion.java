@@ -1,4 +1,4 @@
-package hr.unipu.zad1b;
+package hr.unipu.zadace.zad1b;
 /**
  * <p>This class is used for question and answer output. There is no input from the enduser. The only thing this method does is
  * system output of the parameters hardcoded in the main method which are passed into this one. It has a boolean check for true and false at the end

@@ -1,9 +1,22 @@
 package hr.unipu.zadace.zad2a;
 
+/**
+ * STP_zad2a_Vanja_Luk
+ *
+ * git repo: https://github.com/vanjaluk/STP/tree/master/src/hr/unipu/zadace/zad2a
+ *
+ * Aplikacija za unos riječi i usporedbu broja suglasnika i samoglasnika.
+ * Način korištenja: nakon upisa riječi stisni enter, kad zavriš s upisima napiši "kraj".
+ * Ukoliko postoje riječi koje imaju isti broj suglasnika i samoglasnika program će ih ispisati, ako se napiše samo "kraj" program će završiti.
+ * @author      Vanja Luk
+ * @version     1.00
+ * @since       26-10-2018
+ */
+
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class LetterCounter {
+public class Main {
     public static void main (String[] args) {
         System.out.println("Zapiši riječi, nakon svake stisni enter. Kad završiš napiši \"kraj\"");
         Scanner sc = new Scanner(System.in);

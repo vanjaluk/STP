@@ -1,6 +1,10 @@
 package hr.unipu.zadace.zad2b;
 
 /**
+ * STP_zad2b_Vanja_Luk
+ *
+ * git repo: https://github.com/vanjaluk/STP/tree/master/src/hr/unipu/zadace/zad2b
+ *
  * Aplikacija za Unos studenta u registar
  * Kod pokretanja aplikacije se pokaže jednostavan izbornik sa mogućnostima odabira:
  * (h) pomoć, (s) unos studenta, (p) ispis unešenih podataka, (kraj) izlaz iz programa.

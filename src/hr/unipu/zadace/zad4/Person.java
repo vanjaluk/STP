@@ -1,6 +1,6 @@
 package hr.unipu.zadace.zad4;
 
-public class Person {
+public abstract class Person implements IPerson {
     private String personName;
     private String personSurname;
 
@@ -8,7 +8,6 @@ public class Person {
         this.personName = personName;
         this.personSurname = personSurname;
     }
-
 
     private String getPersonName() {
         return personName;

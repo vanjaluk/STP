@@ -1,6 +1,6 @@
 package hr.unipu.zadace.zad4;
 
-public class Student extends Person {
+public class Student extends Person implements IPerson  {
 
 //ID studenta, polje upisanih predmeta i imena nastavnika
     private int studentId;
@@ -22,6 +22,7 @@ public class Student extends Person {
     }
 
     public String getCourses() {
+
         return courses;
     }
 

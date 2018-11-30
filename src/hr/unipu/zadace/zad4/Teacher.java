@@ -1,6 +1,6 @@
 package hr.unipu.zadace.zad4;
 
-public class Teacher extends Person {
+public class Teacher extends Person implements IPerson  {
     private String course;
     private double netSalary;
     private String teacherVocation;

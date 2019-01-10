@@ -24,24 +24,26 @@ public class Quiz {
     }
 
     // kompozicija klase Quiz
-    public void addQuestion(String text, String answer) {
+    public void addQuestion(String text, String answer) throws MaxNumberOfQuestions {
         if(noOfQuestions <= 10) {
             questions[noOfQuestions] = new ShortAnswerQuestion(text, answer);
             noOfQuestions++;
         }
         else {
-            System.out.println("Postavljen je maksimalni broj pitanja.");
+            System.err.println("Postavljen je maksimalni broj pitanja.");
+            throw new MaxNumberOfQuestions("Postavljen je maksimalni broj pitanja.");
         }
     }
 
     // agregacija klase Quiz
-    public void addQuestion(ShortAnswerQuestion question) {
+    public void addQuestion(ShortAnswerQuestion question) throws MaxNumberOfQuestions {
         if(noOfQuestions <= 10) {
             questions[noOfQuestions] = question;
             noOfQuestions++;
         }
         else {
-            System.out.println("Postavljen je maksimalni broj pitanja.");
+            System.err.println("Postavljen je maksimalni broj pitanja.");
+            throw new MaxNumberOfQuestions("Postavljen je maksimalni broj pitanja.");
         }
     }
 

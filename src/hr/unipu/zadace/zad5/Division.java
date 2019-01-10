@@ -2,16 +2,16 @@ package hr.unipu.zadace.zad5;
 
 import java.text.DecimalFormat;
 
-public class Subtraction extends Operation {
+public class Division extends Operation {
 
-    public Subtraction(double x, double y) {
+    public Division(double x, double y) {
         super.x = x;
         super.y = y;
     }
 
     @Override
     public double getFinalResult() {
-            double result = (x) - (y);
+            double result = x / y;
             DecimalFormat format = new DecimalFormat("##.00");
             return Double.parseDouble(format.format(result));
     }

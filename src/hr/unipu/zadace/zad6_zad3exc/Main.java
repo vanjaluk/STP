@@ -1,4 +1,4 @@
-package hr.unipu.zadace.zad3;
+package hr.unipu.zadace.zad6_zad3exc;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
